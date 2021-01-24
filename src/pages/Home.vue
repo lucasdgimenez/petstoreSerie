@@ -3,9 +3,11 @@
     <Header/>
     <Menu/>
     <Carousel/>
+    <Opcoes/>
     <Novidades/>
     <Destaques/>
     <Newsletter/>
+    <Footer/>
   </div>
 </template>
 
@@ -16,11 +18,13 @@ import Carousel from "../components/Home/Carousel"
 import Novidades from "../components/Home/Novidades"
 import Destaques from "../components/Home/Destaques"
 import Newsletter from "../components/Home/Newsletter"
+import Opcoes from "../components/Home/Opcoes"
+import Footer from "../components/Footer"
 
 export default {
   name: 'Home',
   components: {
-    Header, Menu, Carousel, Novidades, Destaques, Newsletter
+    Header, Menu, Carousel, Novidades, Destaques, Newsletter, Opcoes, Footer
   }
 }
 </script>

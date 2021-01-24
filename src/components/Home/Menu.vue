@@ -1,29 +1,31 @@
 <template>
-  <nav>
+  <nav id="menu">
     <ul>
       <li>
-        <a href="">Palmeiras</a>
+        <a href="">Caes</a>
       </li>
       <li>
-        <a href="">Palmeiras</a>
+        <a href="">Gatos</a>
       </li>
       <li>
-        <a href="">Palmeiras</a>
+        <a href="">Passaros</a>
       </li>
       <li>
-        <a href="">Palmeiras</a>
+        <a href="">Peixes</a>
       </li>
       <li>
-        <a href="">Palmeiras</a>
+        <a href="">Promoções</a>
       </li>
       <li>
-        <a href="">Palmeiras</a>
+        <a href="">Medicamentos</a>
       </li>
       <li>
-        <a href="">Palmeiras</a>
+        <a href="">Antipulgas</a>
       </li>
       <li>
-        <a href="">Menu</a>
+        <a href="">
+          <img src="../../assets/menu.png" alt="Menu">
+        </a>
       </li>
     </ul>
   </nav>
@@ -37,16 +39,18 @@ export default {
 
 <style>
 nav {
-  background: darkblue;
+  background: #8257C6;
 }
 
 nav ul {
   padding: 5px;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 nav a {
   color: #fff;
 }
+
 </style>
