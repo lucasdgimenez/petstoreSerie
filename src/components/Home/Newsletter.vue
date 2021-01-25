@@ -1,24 +1,24 @@
 <template>
   <div id="newsletter">
-    <div class="vantagens">
+    <div class="vantagens container">
       <ul>
         <li>
-          <i class="fas fa-user"></i>
+          <img src="../../assets/icondog24.png" alt="">
           <span>Entrega gratuita a partir de R$90</span>
         </li>
         <li>
-          <i class="fas fa-user"></i>
+          <img src="../../assets/icondog24.png" alt="">
           <span>Parcelamento sem juros</span>
         </li>
         <li>
-          <i class="fas fa-user"></i>
+          <img src="../../assets/icondog24.png" alt="">
           <span>Cadastre-se e ganhe desconto</span>
         </li>
       </ul>
     </div>
     <div class="news">
-      <h2>Assine nossa newsletter</h2>
-      <p>The flex-wrap property specifies whether the flexible items should wrap or not.</p>
+      <h2 class="title_home">Assine nossa newsletter</h2>
+      <p>Cadastre-se para receber nossas novidades e descontos exclusivos.</p>
       <form>
         <input placeholder="Nome" type="text">
         <input placeholder="E-mail" type="email">
@@ -44,11 +44,18 @@ export default {
   display: flex;
   padding: 15px;
   justify-content: space-around;
-  border-bottom: 4px solid #FFA100;
+  border-bottom: 3px solid #FFA100;
 }
 
 .vantagens ul li {
-  padding: 5px;
+    padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.vantagens ul li img {
+    margin-right: 5px;
+
 }
 
 .news {
@@ -60,8 +67,9 @@ export default {
 }
 
 .news h2 {
-  text-transform: uppercase;
+  color: white;
   margin-bottom: 20px;
+  font-weight: 500;
 }
 
 .news p {
@@ -79,6 +87,8 @@ input {
   border-color: #CCC;
   color: white;
   margin: 5px;
+  width: 250px;
+  font-size: 1rem;
 }
 
 input::placeholder {
@@ -90,5 +100,7 @@ button {
   color: #fff;
   border: none;
   padding: 10px;
+  width: 80px;
+  text-transform: uppercase;
 }
 </style>

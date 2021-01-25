@@ -1,35 +1,37 @@
 <template>
-  <section id="novidades">
-    <h1>Novidades</h1>
+  <section id="novidades" class="container">
+    <h1 class="title_home">Novidades</h1>
     <div class="novidadesProdutos">
       <ul>
         <li>
           <a href="">
             <img src="../../assets/housedog.jpg" alt="">
           </a>
-          <p>Item 1</p>
-          <span>R$99.99</span>
+          <h3>Item 1</h3>
+          <p>R$99.99</p>
         </li>
         <li>
           <a href="">
             <img src="../../assets/boxtransportedog.jpg" alt="">
           </a>
-          <p>Item 1</p>
-          <span>R$99.99</span>
+          <span>50% OFF</span>
+          <h3>Item 1</h3>
+          <p>R$99.99</p>
         </li>
         <li>
           <a href="">
             <img src="../../assets/beddog.jpg" alt="">
           </a>
-          <p>Item 1</p>
-          <span>R$99.99</span>
+          <h3>Item 1</h3>
+          <p>R$99.99</p>
         </li>
         <li>
          <a href="">
             <img src="../../assets/balldog.jpg" alt="">
           </a>
-          <p>Item 1</p>
-          <span>R$99.99</span>
+          <span>NOVO</span>
+          <h3>Item 1</h3>
+          <p>R$99.99</p>
         </li>
       </ul>
     </div>
@@ -54,22 +56,44 @@ export default {
 </script>
 
 <style scoped>
+#novidades h1 {
+  margin-top: 20px;
 
+}
 .novidadesProdutos ul {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-    background-color: seagreen;
   margin-bottom: 10px;
 }
 
 .novidadesProdutos ul li {
-  background: rosybrown;
   text-align: center;
   margin-top: 5px;
   margin-right: 5px;
   margin-left: 5px;
   margin-bottom: 30px;
+}
+
+.novidadesProdutos span {
+  position: relative;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  top: -172px;
+  right: 80px;
+  background: #8257C6;
+  padding: 5px;
+}
+
+.novidadesProdutos h3 {
+  font-weight: 500;
+  color: #999
+}
+
+.novidadesProdutos p {
+  font-weight: 500;
+  color: #00002F;
 }
 
 .novidadesProdutos ul li a img:hover {
@@ -78,7 +102,7 @@ export default {
 
 .novidadesCategoria {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
   padding-top: 10px;
 }
@@ -88,13 +112,13 @@ export default {
 }
 
 .novidadesProdutos img {
-  width: 230px;
-  height: 140px;
+  width: 240px;
+  height: 180px;
 }
 
 .novidadesCategoria img {
-  width: 450px;
-  height: 200px;
+  width: 480px;
+  height: 230px;
 }
 
 .novidadesCategoria h2 {
@@ -103,9 +127,9 @@ export default {
   text-align: center;
   text-transform: uppercase;
   padding: 10px;
-  font-size: 0.875em;
-  font-weight: bold;
   position: relative;
+  font-weight: 500;
+  font-size: 1rem;
   top: -85px;
   width: 190px;
 }

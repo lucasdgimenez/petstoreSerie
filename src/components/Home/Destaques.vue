@@ -1,41 +1,41 @@
 <template>
-  <section id="destaques">
-    <h1>Destaques</h1>
+  <section id="destaques" class="container">
+    <h1 class="title_home">Destaques</h1>
     <div class="novidadesProdutos">
       <ul>
         <li>
           <a href="">
             <img src="../../assets/housedog.jpg" alt="">
           </a>
-          <p>Item 1</p>
+          <p>Casinha</p>
           <span>R$99.99</span>
         </li>
         <li>
           <a href="">
             <img src="../../assets/boxtransportedog.jpg" alt="">
           </a>
-          <p>Item 1</p>
+          <p>Caixa de transporte</p>
           <span>R$99.99</span>
         </li>
         <li>
           <a href="">
             <img src="../../assets/beddog.jpg" alt="">
           </a>
-          <p>Item 1</p>
+          <p>Cama</p>
           <span>R$99.99</span>
         </li>
         <li>
          <a href="">
             <img src="../../assets/balldog.jpg" alt="">
           </a>
-          <p>Item 1</p>
+          <p>Bola</p>
           <span>R$99.99</span>
         </li>
         <li>
          <a href="">
             <img src="../../assets/housedog.jpg" alt="">
           </a>
-          <p>Item 1</p>
+          <p>Casinha</p>
           <span>R$99.99</span>
         </li>
 
@@ -43,7 +43,7 @@
          <a href="">
             <img src="../../assets/boxtransportedog.jpg" alt="">
           </a>
-          <p>Item 1</p>
+          <p>Caixa de transporte</p>
           <span>R$99.99</span>
         </li>
 
@@ -51,7 +51,7 @@
          <a href="">
             <img src="../../assets/beddog.jpg" alt="">
           </a>
-          <p>Item 1</p>
+          <p>Cama</p>
           <span>R$99.99</span>
         </li>
 
@@ -59,7 +59,7 @@
          <a href="">
             <img src="../../assets/balldog.jpg" alt="">
           </a>
-          <p>Item 1</p>
+          <p>Bola</p>
           <span>R$99.99</span>
         </li>
       </ul>
@@ -79,18 +79,32 @@ export default {
   justify-content: space-around;
   flex-wrap: wrap;
   margin-bottom: 20px;
-  background: crimson;
-  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+  .novidadesProdutos ul {
+    flex-direction: column;
+  }
 }
 
 .novidadesProdutos ul li {
-  background: rosybrown;
   padding: 5px;
   text-align: center;
 }
 
+.novidadesProdutos p {
+  font-weight: 500;
+  color: #999
+}
+
+.novidadesProdutos span {
+  font-weight: 500;
+  color: #00002F;
+}
+
+
 .novidadesProdutos ul li a img:hover {
-  background: rgba(0, 0, 0, 0.4);
+  filter: brightness(.5);
 }
 
 .novidadesCategoria img, .novidadesProdutos img {

@@ -1,92 +1,105 @@
 <template>
   <footer class="footer">
-      <div class="pet">
-        <img src="../assets/logo.png" alt="Pet">
-        <ul class="socialMedia">
-          <li>
-            <a href="https://www.facebook.com">
-              <i class="fab fa-facebook"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com">
-              <i class="fab fa-instagram-square"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.twitter.com">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            2019 - CNPJ 71.687.760/0001-67
-          </li>
-          <li>
-            Rua Chris Haní, 538 - Campinas, SP
-          </li>
-        </ul>
-      </div>
+    <div class="first_footer container">
+         <div class="pet">
+          <img src="../assets/logodog123.png" alt="Pet">
+          <ul class="socialMedia">
+              <li>
+                <a href="https://www.facebook.com">
+                  <i class="fab fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com">
+                  <i class="fab fa-instagram-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.twitter.com">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                2019 - CNPJ 71.687.760/0001-67
+              </li>
+              <li>
+                Rua Chris Haní, 538 - Campinas, SP
+              </li>
+            </ul>
+          </div>
 
-      <div class="petstore">
-        <h5>PET STORE</h5>
-        <ul>
-          <li>
-            <a href="">Quem somos</a>
-          </li>
-          <li>
-            <a href="">Como comprar</a>
-          </li>
-          <li>
-            <a href="">Trocas e devoluções</a>
-          </li>
-          <li>
-            <a href="">Frete e Entregas</a>
-          </li>
-        </ul>
-      </div>
+          <section class="petstore">
+            <h5>PET STORE</h5>
+            <ul>
+              <li>
+                <a href="">Quem somos</a>
+              </li>
+              <li>
+                <a href="">Como comprar</a>
+              </li>
+              <li>
+                <a href="">Trocas e devoluções</a>
+              </li>
+              <li>
+                <a href="">Frete e Entregas</a>
+              </li>
+            </ul>
+          </section>
 
-      <div class="contato">
-        <h5>Contato</h5>
-        <ul>
-          <li>(99) 9999-9999</li>
-          <li>(99) 9999-9999</li>
-          <li>petstore@petstore.com.br</li>
-        </ul>
+          <div class="contato">
+            <h5>Contato</h5>
+            <ul>
+              <li>(99) 9999-9999</li>
+              <li>(99) 9999-9999</li>
+              <li>petstore@petstore.com.br</li>
+            </ul>
+          </div>
+        
+          <div class="pagamento">
+            <h5>Pagamento</h5>
+            <ul>
+              <li>
+                <img src="../assets/visa.png" alt="Visa">
+              </li>
+              <li>
+                <img src="../assets/mastercard.png" alt="Mastercard">
+              </li>
+              <li>
+                <img src="../assets/american-express.png" alt="American express">
+              </li>
+              <li>
+                <img src="../assets/paypal.png" alt="Paypal">
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <img src="../assets/visa.png" alt="Visa">
+              </li>
+              <li>
+                <img src="../assets/mastercard.png" alt="Mastercard">
+              </li>
+              <li>
+                <img src="../assets/american-express.png" alt="American express">
+              </li>
+              <li>
+                <img src="../assets/paypal.png" alt="Paypal">
+              </li>
+            </ul>
+          </div>
       </div>
+     
       
-      <div class="pagamento">
-        <h5>Pagamento</h5>
-        <ul>
-          <li>
-            <img src="../assets/visa.png" alt="Visa">
-          </li>
-          <li>
-            <img src="../assets/mastercard.png" alt="Mastercard">
-          </li>
-          <li>
-            <img src="../assets/american-express.png" alt="American express">
-          </li>
-          <li>
-            <img src="../assets/paypal.png" alt="Paypal">
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <img src="../assets/visa.png" alt="Visa">
-          </li>
-          <li>
-            <img src="../assets/mastercard.png" alt="Mastercard">
-          </li>
-          <li>
-            <img src="../assets/american-express.png" alt="American express">
-          </li>
-          <li>
-            <img src="../assets/paypal.png" alt="Paypal">
-          </li>
-        </ul>
+    <div id="second_footer">
+      <div class="container">
+         <p>TECNOLOGIA E DESENVOLVIMENTO. 
+          <img src="logodog123" alt="">
+        </p>
       </div>
+       
+      
+    </div>
 
   </footer>
 </template>
@@ -98,24 +111,64 @@ export default {
 </script>
 
 <style scoped>
-.footer {
+.first_footer {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.first_footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .pet {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: darkgoldenrod;
+    color: #999;
 }
 
 .pet img {
   width: 40%;
 }
 
+.pet ul li {
+  margin: 5px;
+}
+
+.pet ul:last-child {
+  margin-bottom: 30px;
+}
+
 .socialMedia {
   display: flex;
   justify-content: space-around;
+}
+
+.socialMedia i {
+  font-size: 24px;
+  background: #999;
+  border-radius: 50%;
+  padding: 5px;
+  color: white;
+  margin: 10px;
+}
+
+.socialMedia i:hover {
+  background: #FEA200;
+}
+
+.petstore ul li a, .contato ul li {
+  color: #999;
+}
+
+.petstore ul li a:hover {
+  text-decoration: underline;
+}
+
+.petstore ul li, .contato ul li, .petstore h5, .contato h5 {
+  margin: 5px;
 }
 
 .pagamento ul {
@@ -124,5 +177,9 @@ export default {
 
 .pagamento ul li {
   padding: 5px;
+}
+
+#second_footer {
+  background: #CCC;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <nav id="menu">
-    <ul>
+    <ul class="container">
       <li>
         <a href="">Caes</a>
       </li>
@@ -38,12 +38,12 @@ export default {
 </script>
 
 <style>
-nav {
+#menu {
   background: #8257C6;
   padding: 5px;
 }
 
-nav ul {
+#menu ul {
   display: flex;
   justify-content: space-around;
   align-items: center;

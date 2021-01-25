@@ -1,5 +1,5 @@
 <template>
-  <div id="carousel">
+  <div id="carousel" class="container">
     <a href="">
       ❮
     </a>
@@ -20,6 +20,7 @@ export default {
   display: flex;
   justify-content: space-between;
   background-image: url('../../assets/dog.jpg');
+  background-position: center;
   background-size: cover;
   padding: 130px;
 }

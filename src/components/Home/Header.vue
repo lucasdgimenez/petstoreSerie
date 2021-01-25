@@ -1,8 +1,8 @@
 <template>
-  <header id="header">
+  <header id="header" class="container">
     <input type="text" placeholder="Pesquisar..."/>
     <a href="/">
-      <img src="../../assets/logo.png" alt="Logo">
+      <img src="../../assets/logodog123.png" alt="Logo">
     </a>
     <ul>
       <li>
