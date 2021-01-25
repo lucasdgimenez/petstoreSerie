@@ -59,6 +59,32 @@ export default {
   align-items: center;
 }
 
+.news h2 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.news p {
+  margin-bottom: 50px;
+}
+
+.news form {
+  margin-top: 30px;
+}
+
+input {
+  outline: 0;
+  background-color: #8257C6;
+  border-width: 0 0 2px;
+  border-color: #CCC;
+  color: white;
+  margin: 5px;
+}
+
+input::placeholder {
+  color: #CCC;
+}
+
 button {
   background: #FEA200;
   color: #fff;

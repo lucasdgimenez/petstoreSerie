@@ -40,16 +40,16 @@ export default {
 <style>
 nav {
   background: #8257C6;
+  padding: 5px;
 }
 
 nav ul {
-  padding: 5px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-nav a {
+#menu ul li a {
   color: #fff;
 }
 
