@@ -28,6 +28,11 @@
                 Rua Chris Haní, 538 - Campinas, SP
               </li>
             </ul>
+           
+            <a href="https://wa.me/5511985974862" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+            z-index:1000;" target="_blank">
+              <i style="margin-top:16px" class="fab fa-whatsapp"></i>
+            </a>
           </div>
 
           <div class="petstore">
