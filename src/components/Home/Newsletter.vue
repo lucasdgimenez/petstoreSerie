@@ -109,6 +109,9 @@ button {
     flex-direction: column;
     align-items: center;
   }
+  .news {
+    text-align: center;
+  }
   form {
     display: flex;
     flex-direction: column;

@@ -7,60 +7,62 @@
           <a href="">
             <img src="../../assets/housedog.jpg" alt="">
           </a>
-          <p>Casinha</p>
-          <span>R$99.99</span>
+          <h3>Casinha</h3>
+          <p>R$99.99</p>
         </li>
         <li>
           <a href="">
             <img src="../../assets/boxtransportedog.jpg" alt="">
           </a>
-          <p>Caixa de transporte</p>
-          <span>R$99.99</span>
+          <span>50% OFF</span>
+          <h3>Caixa de transporte</h3>
+          <p>R$99.99</p>
         </li>
         <li>
           <a href="">
             <img src="../../assets/beddog.jpg" alt="">
           </a>
-          <p>Cama</p>
-          <span>R$99.99</span>
+          <h3>Cama</h3>
+          <p>R$99.99</p>
         </li>
         <li>
          <a href="">
             <img src="../../assets/balldog.jpg" alt="">
           </a>
-          <p>Bola</p>
-          <span>R$99.99</span>
+          <span>NOVO</span>
+          <h3>Bola</h3>
+          <p>R$99.99</p>
         </li>
         <li>
          <a href="">
             <img src="../../assets/housedog.jpg" alt="">
           </a>
-          <p>Casinha</p>
-          <span>R$99.99</span>
+          <h3>Casinha</h3>
+          <p>R$99.99</p>
         </li>
 
         <li>
          <a href="">
             <img src="../../assets/boxtransportedog.jpg" alt="">
           </a>
-          <p>Caixa de transporte</p>
-          <span>R$99.99</span>
+          <h3>Caixa de transporte</h3>
+          <p>R$99.99</p>
         </li>
 
         <li>
          <a href="">
             <img src="../../assets/beddog.jpg" alt="">
           </a>
-          <p>Cama</p>
-          <span>R$99.99</span>
+          <h3>Cama</h3>
+          <p>R$99.99</p>
         </li>
 
         <li>
          <a href="">
             <img src="../../assets/balldog.jpg" alt="">
           </a>
-          <p>Bola</p>
-          <span>R$99.99</span>
+          <h3>Bola</h3>
+          <p>R$99.99</p>
         </li>
       </ul>
     </div>
@@ -78,7 +80,7 @@ export default {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .novidadesProdutos ul li {
@@ -86,16 +88,30 @@ export default {
   text-align: center;
 }
 
-.novidadesProdutos p {
+.novidadesProdutos h3 {
   font-weight: 500;
   color: #999
 }
 
-.novidadesProdutos span {
+.novidadesProdutos h3:nth-child(odd) {
+  margin-top: -20px;
+}
+
+.novidadesProdutos p {
   font-weight: 500;
   color: #00002F;
 }
 
+.novidadesProdutos span {
+  position: relative;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  top: -172px;
+  right: 80px;
+  background: #8257C6;
+  padding: 5px;
+}
 
 .novidadesProdutos ul li a img:hover {
   filter: brightness(.5);
@@ -107,7 +123,7 @@ export default {
   margin: 0 auto;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .novidadesProdutos ul {
     flex-direction: column;
   }

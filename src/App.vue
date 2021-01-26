@@ -25,7 +25,8 @@ export default {
 }
 
 img {
-  display: block;
+    display: block;
+
 }
 
 .title_home {
@@ -34,8 +35,8 @@ img {
   font-weight: bold;
   text-align: center;
   color: #999;
-    text-transform: uppercase;
-    line-height: 2;
+  text-transform: uppercase;
+  line-height: 2;
   letter-spacing: 2px;
 
 }
@@ -43,6 +44,10 @@ img {
 .container {
   max-width: 1000px;
   margin: 0 auto;
+}
+
+button {
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 1024px) {

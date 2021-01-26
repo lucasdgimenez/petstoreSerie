@@ -1,11 +1,14 @@
 <template>
-  <div id="carousel" class="container">
-    <a href="">
-      ❮
-    </a>
-    <a href="">
-      ❯
-    </a>
+  <div id="carousel">
+    <div class="container">
+        <a href="">
+          ❮
+        </a>
+        <a href="">
+          ❯
+        </a>
+    </div>
+  
   </div>
 </template>
 
@@ -17,12 +20,16 @@ export default {
 
 <style scoped>
 #carousel {
-  display: flex;
-  justify-content: space-between;
+ 
   background-image: url('../../assets/dog.jpg');
   background-position: center;
   background-size: cover;
   padding: 130px;
+}
+
+#carousel div {
+   display: flex;
+  justify-content: space-between;
 }
 
 #carousel a {

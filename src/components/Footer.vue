@@ -49,7 +49,7 @@
           </div>
 
           <div class="contato">
-            <h5>Contato</h5>
+            <h5>CONTATO</h5>
             <ul>
               <li>(99) 9999-9999</li>
               <li>(99) 9999-9999</li>
@@ -58,7 +58,7 @@
           </div>
         
           <div class="pagamento">
-            <h5>Pagamento</h5>
+            <h5>PAGAMENTO</h5>
             <ul>
               <li>
                 <img src="../assets/visa.png" alt="Visa">
@@ -93,9 +93,10 @@
       
     <div id="second_footer">
       <div class="container">
-         <p>TECNOLOGIA E DESENVOLVIMENTO. 
-          <img src="logodog123" alt="">
-        </p>
+        <p>TECNOLOGIA E DESENVOLVIMENTO. </p>
+        <a href="https://seriedesign.com.br/" target="_blank">
+          <img src="../assets/icondog24.png" alt="Serie Design">
+        </a>
       </div>
        
       
@@ -167,7 +168,12 @@ export default {
   text-decoration: underline;
 }
 
-.petstore ul li, .contato ul li, .petstore h5, .contato h5 {
+.petstore ul li, .contato ul li, .petstore h5, .contato h5,
+.pagamento h5 {
+  margin: 10px;
+}
+
+.pagamento ul li {
   margin: 5px;
 }
 
@@ -175,12 +181,15 @@ export default {
   display: flex;
 }
 
-.pagamento ul li {
-  padding: 5px;
-}
-
 #second_footer {
   background: #CCC;
+  padding: 20px;
+}
+
+#second_footer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media only screen and (max-width: 768px) {

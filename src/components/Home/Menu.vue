@@ -1,6 +1,6 @@
 <template>
   <nav id="menu">
-    <ul class="container">
+    <ul class="container" v-if="!modoMobile">
       <li>
         <a href="">Caes</a>
       </li>
@@ -22,18 +22,29 @@
       <li>
         <a href="">Antipulgas</a>
       </li>
-      <li>
-        <a href="">
+    </ul>
+
+      <div class="menuMobile">
+        <a href="" @click.prevent="mobile">
           <img src="../../assets/menu.png" alt="Menu">
         </a>
-      </li>
-    </ul>
+      </div>
   </nav>
 </template>
 
 <script>
 export default {
-  name: 'Menu'
+  name: 'Menu',
+  data() {
+    return {
+      modoMobile: false
+    }
+  },
+  methods: {
+    mobile() {
+      this.modoMobile = !this.modoMobile;
+    }
+  }
 }
 </script>
 
@@ -49,8 +60,40 @@ export default {
   align-items: center;
 }
 
+#menu ul li {
+  padding: 5px;
+}
+
 #menu ul li a {
   color: #fff;
+  padding: 5px;
+}
+
+#menu ul li a:hover {
+    background-color: white;
+    color: #8257C6;
+  }
+
+.menuMobile {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  #menu ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  #menu ul li {
+    margin-bottom: 10px;
+  }
+  #menu ul li a {
+    padding: 5px;
+  }
+  .menuMobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 </style>

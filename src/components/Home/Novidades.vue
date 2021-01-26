@@ -103,6 +103,11 @@ export default {
   filter: brightness(.5);
 }
 
+.novidadesCategoria a:hover {
+    filter: brightness(.5);
+
+}
+
 .novidadesCategoria {
   display: flex;
   justify-content: space-between;
@@ -159,13 +164,8 @@ export default {
   .novidadesCategoria h2 {
     background: #dd9f0f;
     color: #fff;
-    text-align: center;
-    text-transform: uppercase;
     padding: 5px;
-    position: relative;
-    font-weight: 500;
     font-size: 0.8rem;
-    top: -85px;
     width: 110px;
   }
 }
