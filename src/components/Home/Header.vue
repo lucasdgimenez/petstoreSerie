@@ -45,4 +45,11 @@ input {
   padding: 15px;
   background-image: url('../../assets/user.png') no-repeat scroll 7px 7px;
 }
+
+@media only screen and (max-width: 768px) {
+  #header {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 </style>

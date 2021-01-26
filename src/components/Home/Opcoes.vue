@@ -51,4 +51,11 @@ export default {
   margin-bottom: -20px;
 }
 
+@media only screen and (max-width: 1024px) {
+  #opcoes div {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 </style>

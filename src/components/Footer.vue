@@ -30,7 +30,7 @@
             </ul>
           </div>
 
-          <section class="petstore">
+          <div class="petstore">
             <h5>PET STORE</h5>
             <ul>
               <li>
@@ -46,7 +46,7 @@
                 <a href="">Frete e Entregas</a>
               </li>
             </ul>
-          </section>
+          </div>
 
           <div class="contato">
             <h5>Contato</h5>
@@ -181,5 +181,15 @@ export default {
 
 #second_footer {
   background: #CCC;
+}
+
+@media only screen and (max-width: 768px) {
+  .first_footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .first_footer div {
+    margin-bottom: 15px;
+  }
 }
 </style>

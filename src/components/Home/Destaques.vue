@@ -81,12 +81,6 @@ export default {
   margin-bottom: 20px;
 }
 
-@media only screen and (max-width: 600px) {
-  .novidadesProdutos ul {
-    flex-direction: column;
-  }
-}
-
 .novidadesProdutos ul li {
   padding: 5px;
   text-align: center;
@@ -107,9 +101,15 @@ export default {
   filter: brightness(.5);
 }
 
-.novidadesCategoria img, .novidadesProdutos img {
-  width: 230px;
-  height: 150px;
+.novidadesProdutos img {
+  width: 240px;
+  height: 180px;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .novidadesProdutos ul {
+    flex-direction: column;
+  }
 }
 </style>

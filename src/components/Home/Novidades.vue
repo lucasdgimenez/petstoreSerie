@@ -64,7 +64,6 @@ export default {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-bottom: 10px;
 }
 
 .novidadesProdutos ul li {
@@ -73,6 +72,10 @@ export default {
   margin-right: 5px;
   margin-left: 5px;
   margin-bottom: 30px;
+}
+
+.novidadesProdutos h3:nth-child(odd) {
+  margin-top: -20px;
 }
 
 .novidadesProdutos span {
@@ -132,6 +135,39 @@ export default {
   font-size: 1rem;
   top: -85px;
   width: 190px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .novidadesCategoria {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .novidadesProdutos ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .novidadesCategoria img {
+    width: 300px;
+    height: 200px;
+  }
+  .novidadesCategoria h2 {
+    background: #dd9f0f;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px;
+    position: relative;
+    font-weight: 500;
+    font-size: 0.8rem;
+    top: -85px;
+    width: 110px;
+  }
 }
 
 </style>

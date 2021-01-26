@@ -103,4 +103,19 @@ button {
   width: 80px;
   text-transform: uppercase;
 }
+
+@media only screen and (max-width: 768px) {
+  .vantagens ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  input {
+    margin: 20px;
+  }
+}
 </style>
