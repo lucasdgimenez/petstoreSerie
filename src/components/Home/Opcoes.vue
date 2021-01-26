@@ -2,17 +2,17 @@
     <nav id="opcoes">
       <div class="container">
         <a href="" class="opcoes_link">
-          <img src="../../assets/racao.jpg" alt="">
+          <img src="../../assets/racao.jpg" alt="Racao">
           <h2>Ração</h2>
         </a>
         
         <a href="" class="opcoes_link">
-          <img src="../../assets/toydog.jpg" alt="">
+          <img src="../../assets/toydog.jpg" alt="Brinquedos">
           <h2>Brinquedos</h2>
         </a>
         
         <a href="" class="opcoes_link">
-          <img src="../../assets/boxtransportedog.jpg" alt="">
+          <img src="../../assets/boxtransportedog.jpg" alt="Acessorios">
           <h2>Acessorios</h2>
         </a>
       </div>     

@@ -3,15 +3,15 @@
     <div class="vantagens container">
       <ul>
         <li>
-          <img src="../../assets/icondog24.png" alt="">
+          <img src="../../assets/icondog24.png" alt="Entrega gratuita">
           <span>Entrega gratuita a partir de R$90</span>
         </li>
         <li>
-          <img src="../../assets/icondog24.png" alt="">
+          <img src="../../assets/icondog24.png" alt="Parcelamento">
           <span>Parcelamento sem juros</span>
         </li>
         <li>
-          <img src="../../assets/icondog24.png" alt="">
+          <img src="../../assets/icondog24.png" alt="Desconto">
           <span>Cadastre-se e ganhe desconto</span>
         </li>
       </ul>

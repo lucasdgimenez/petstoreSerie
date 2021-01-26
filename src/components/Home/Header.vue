@@ -7,12 +7,12 @@
     <ul>
       <li>
         <a href="">
-          <img src="../../assets/user (1).png" alt="User">
+          <img src="../../assets/user.png" alt="Login">
         </a>
       </li>
       <li>
         <a href="">
-          <img src="../../assets/shopping-cart (1).png" alt="cart">
+          <img src="../../assets/shopping-cart.png" alt="Carrinho">
         </a>
       </li>
     </ul>

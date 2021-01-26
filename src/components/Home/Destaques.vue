@@ -5,14 +5,14 @@
       <ul>
         <li>
           <a href="">
-            <img src="../../assets/housedog.jpg" alt="">
+            <img src="../../assets/housedog.jpg" alt="Casa de cachorro">
           </a>
           <h3>Casinha</h3>
           <p>R$99.99</p>
         </li>
         <li>
           <a href="">
-            <img src="../../assets/boxtransportedog.jpg" alt="">
+            <img src="../../assets/boxtransportedog.jpg" alt="Caixa de transporte">
           </a>
           <span>50% OFF</span>
           <h3>Caixa de transporte</h3>
@@ -20,14 +20,14 @@
         </li>
         <li>
           <a href="">
-            <img src="../../assets/beddog.jpg" alt="">
+            <img src="../../assets/beddog.jpg" alt="Cama de cachorro">
           </a>
           <h3>Cama</h3>
           <p>R$99.99</p>
         </li>
         <li>
          <a href="">
-            <img src="../../assets/balldog.jpg" alt="">
+            <img src="../../assets/balldog.jpg" alt="Bola de cachorro">
           </a>
           <span>NOVO</span>
           <h3>Bola</h3>
@@ -35,7 +35,7 @@
         </li>
         <li>
          <a href="">
-            <img src="../../assets/housedog.jpg" alt="">
+            <img src="../../assets/housedog.jpg" alt="Casa de cachorro">
           </a>
           <h3>Casinha</h3>
           <p>R$99.99</p>
@@ -43,7 +43,7 @@
 
         <li>
          <a href="">
-            <img src="../../assets/boxtransportedog.jpg" alt="">
+            <img src="../../assets/boxtransportedog.jpg" alt="Caixa de transporte">
           </a>
           <h3>Caixa de transporte</h3>
           <p>R$99.99</p>
@@ -51,7 +51,7 @@
 
         <li>
          <a href="">
-            <img src="../../assets/beddog.jpg" alt="">
+            <img src="../../assets/beddog.jpg" alt="Bola de cachorro">
           </a>
           <h3>Cama</h3>
           <p>R$99.99</p>
@@ -59,7 +59,7 @@
 
         <li>
          <a href="">
-            <img src="../../assets/balldog.jpg" alt="">
+            <img src="../../assets/balldog.jpg" alt="Casa de cachorro">
           </a>
           <h3>Bola</h3>
           <p>R$99.99</p>

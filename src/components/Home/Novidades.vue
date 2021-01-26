@@ -5,14 +5,14 @@
       <ul>
         <li>
           <a href="">
-            <img src="../../assets/housedog.jpg" alt="">
+            <img src="../../assets/housedog.jpg" alt="Casinha de cachorro">
           </a>
           <h3>Item 1</h3>
           <p>R$99.99</p>
         </li>
         <li>
           <a href="">
-            <img src="../../assets/boxtransportedog.jpg" alt="">
+            <img src="../../assets/boxtransportedog.jpg" alt="Caixa de transporte">
           </a>
           <span>50% OFF</span>
           <h3>Item 1</h3>
@@ -20,14 +20,14 @@
         </li>
         <li>
           <a href="">
-            <img src="../../assets/beddog.jpg" alt="">
+            <img src="../../assets/beddog.jpg" alt="Cama de cachorro">
           </a>
           <h3>Item 1</h3>
           <p>R$99.99</p>
         </li>
         <li>
          <a href="">
-            <img src="../../assets/balldog.jpg" alt="">
+            <img src="../../assets/balldog.jpg" alt="Bola de cachorro">
           </a>
           <span>NOVO</span>
           <h3>Item 1</h3>
@@ -38,11 +38,11 @@
 
     <div class="novidadesCategoria">
       <a href="">
-        <img src="../../assets/vitolic.jpg" alt="cat">
+        <img src="../../assets/vitolic.jpg" alt="para Gato">
         <h2>Para Gatos</h2>
       </a>
       <a href="" class="dog">
-        <img src="../../assets/karsten.jpg" alt="dog">
+        <img src="../../assets/karsten.jpg" alt="para Cachorro">
         <h2>Para Cachorros</h2>
       </a>
     </div>
@@ -51,7 +51,12 @@
 
 <script>
 export default {
-  name: 'Novidades'
+  name: 'Novidades',
+  data() {
+    return {
+      mouseOn: false
+    }
+  }
 }
 </script>
 
