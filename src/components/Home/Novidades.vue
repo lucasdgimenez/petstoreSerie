@@ -3,35 +3,13 @@
     <h1 class="title_home">Novidades</h1>
     <div class="novidadesProdutos">
       <ul>
-        <li>
+        <li v-for="item in produtos.slice(0,4)" :key="item.id">
           <a href="">
-            <img src="../../assets/housedog.jpg" alt="Casinha de cachorro">
+            <img :src="require(`../../assets/produtos/${item.codimg}.jpg`)" :alt="` ${item.nome}`">
           </a>
-          <h3>Item 1</h3>
-          <p>R$99.99</p>
-        </li>
-        <li>
-          <a href="">
-            <img src="../../assets/boxtransportedog.jpg" alt="Caixa de transporte">
-          </a>
-          <span>50% OFF</span>
-          <h3>Item 1</h3>
-          <p>R$99.99</p>
-        </li>
-        <li>
-          <a href="">
-            <img src="../../assets/beddog.jpg" alt="Cama de cachorro">
-          </a>
-          <h3>Item 1</h3>
-          <p>R$99.99</p>
-        </li>
-        <li>
-         <a href="">
-            <img src="../../assets/balldog.jpg" alt="Bola de cachorro">
-          </a>
-          <span>NOVO</span>
-          <h3>Item 1</h3>
-          <p>R$99.99</p>
+          <span v-if="item.new">NOVO</span>
+          <h3>{{item.nome}}</h3>
+          <p>R$ {{item.preco}}</p>
         </li>
       </ul>
     </div>
@@ -50,12 +28,18 @@
 </template>
 
 <script>
+import produtos from "../../data/produtos.json"
+
 export default {
   name: 'Novidades',
   data() {
     return {
-      mouseOn: false
+      mouseOn: false,
+      produtos: produtos
     }
+  },
+  created() {
+    console.log("Novidade: " + produtos)
   }
 }
 </script>

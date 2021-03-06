@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "codimg": "playstation4",
+    "nome": "Play Station 4",
+    "description": "Um video game",
+    "new": true,
+    "preco": 2000
+  },
+  {
+    "id": 2,
+    "codimg": "xiaomi1",
+    "nome": "Xioami 6S",
+    "description": "Um celular bom e barato",
+    "new": false,
+    "preco": 880
+  },
+  {
+    "id": 3,
+    "codimg": "foneedifier1",
+    "nome": "Fone de ouvido Edifier",
+    "description": "Um fone de bom custo beneficio",
+    "new": true,
+    "preco": 280
+  },
+  {
+    "id": 4,
+    "codimg": "notebooklenovo1",
+    "nome": "Notebook I5 LeNovo",
+    "description": "Computador para programar e jogar video game",
+    "new": false,
+    "preco": 3800
+  },
+  {
+    "id": 1,
+    "codimg": "playstation4",
+    "nome": "Play Station 4",
+    "description": "Um video game",
+    "preco": 2000
+  },
+  {
+    "id": 2,
+    "codimg": "xiaomi1",
+    "nome": "Xioami 6S",
+    "description": "Um celular bom e barato",
+    "preco": 880
+  },
+  {
+    "id": 3,
+    "codimg": "foneedifier1",
+    "nome": "Fone de ouvido Edifier",
+    "description": "Um fone de bom custo beneficio",
+    "preco": 280
+  },
+  {
+    "id": 4,
+    "codimg": "notebooklenovo1",
+    "nome": "Notebook I5 LeNovo",
+    "description": "Computador para programar e jogar video game",
+    "preco": 3800
+  }
+]
